@@ -37,7 +37,7 @@ jobs:
 
       - name: 📤 Upload Build Artifacts
         if: success()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@e87d9d0e66e9a94d3e0bd8f5f636dfcbfbd070c6
         with:
           name: CloudSim-Build
           path: target/
